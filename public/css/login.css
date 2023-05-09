@@ -80,3 +80,11 @@ main button[type="submit"] {
   }
 }
 
+@media (min-width: 1200px){
+  main{
+    margin-top:6.5%;
+  }
+  footer{
+    margin-top:15%;
+  }
+}
