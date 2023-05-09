@@ -69,3 +69,12 @@ main button[type="submit"] {
       display: none;
   }
 }
+
+@media (min-width: 920px){
+  main{
+    margin-top:15%
+  }
+  footer{
+    margin-top:15%;
+  }
+}
