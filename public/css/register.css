@@ -81,19 +81,19 @@ form input[type="checkbox"]{
   background-color: #0444a9; 
 }
 
-@media (min-width: 361px){
+@media (min-width: 360px){
   .producto{
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   .a-la-izquierda{
       display: inline;
   }
-  .burger-menu{
-      display: none;
+  main{
+    margin-top: 155px;
   }
 }
 
-@media (min-width: 769px){
+@media (min-width: 768px){
   .descripciones {
       display:inline;
   }

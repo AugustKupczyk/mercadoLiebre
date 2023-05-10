@@ -2,6 +2,11 @@ main {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #dfdede ;
+  margin-top: 150px;
+}
+
+footer{
+  padding: 25px;
 }
 
 .form-login {
@@ -39,24 +44,41 @@ main button[type="submit"] {
   border-radius: 8px;
 }
 
-
 .form-login #login-enviar:hover {
   background-color: #0022AA;
 }
 
-@media (min-width: 361px){
+@media (min-width: 360px){
   .producto{
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   .a-la-izquierda{
       display: inline;
   }
-  .burger-menu{
-      display: none;
+  main{
+    margin-top: 138px;
   }
 }
 
-@media (min-width: 769px){
+@media (min-width: 437px){
+  main{
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 852px){
+  main{
+    margin-top: 185px;
+  }
+}
+
+@media (min-width: 859px){
+  main{
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 768px){
   .descripciones {
       display:inline;
   }
@@ -72,19 +94,30 @@ main button[type="submit"] {
 }
 
 @media (min-width: 920px){
+ main{
+  margin-top: 235px;
+ } 
+
+ footer{
+  margin-top: 190px;
+ }
+
+}
+
+@media (min-width: 1033px){
   main{
-    margin-top:15%
-  }
-  footer{
-    margin-top:15%;
+    margin-top: 250px;
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1450px){
   main{
-    margin-top:6.5%;
+  margin-top: 290px;
   }
+
   footer{
-    margin-top:15%;
+    position: absolute;
+    bottom: 0px;
   }
+  
 }
