@@ -147,6 +147,7 @@ flex-direction: row;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 15px;
+    opacity: 0.8;
 }
 
 .titulares-container {
@@ -245,6 +246,7 @@ flex-direction: row;
 }
 
 .tres-ultimos{
+    display: flex;
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
@@ -275,6 +277,9 @@ flex-direction: row;
     main{
         margin-top: 30px;
     }
+    .tres-ultimos{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 768px){
@@ -303,6 +308,9 @@ flex-direction: row;
         display: flex;
         justify-content: space-between;
     }
+    .tres-ultimos{
+        flex-direction: column;
+    }
 
     
 }
@@ -311,7 +319,7 @@ flex-direction: row;
 
 @media (min-width: 920px){
     
-footer{
+.tres-ultimos{
     flex-direction: row;
     justify-content: space-between;
 }
