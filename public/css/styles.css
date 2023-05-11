@@ -15,7 +15,8 @@ body{
     background-color: #EAC926;
     padding: 15px;
     top: 0;
-    width: 100vw;   
+    width: 100vw; 
+    z-index: 1;  
 }
 
 main{
