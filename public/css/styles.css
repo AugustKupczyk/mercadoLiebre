@@ -146,7 +146,7 @@ flex-direction: row;
     color:rgb(37, 37, 37);
     width: 100%;
     margin-bottom: 15px;
-    margin-top: 15px;
+    padding-top: 10px;
     opacity: 0.8;
 }
 
@@ -274,9 +274,6 @@ flex-direction: row;
 }
 
 @media (min-width:360px){
-    main{
-        margin-top: 30px;
-    }
     .tres-ultimos{
         flex-direction: column;
     }
